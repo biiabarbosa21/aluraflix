@@ -1,0 +1,61 @@
+body{
+    color:white;
+    background:black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 3px blue;
+    padding: 20px;
+    font-size: 32px;
+    color:purple;
+    
+}
+
+.chamada{
+    background: rgb(151, 35, 140);
+    padding-bottom 80px;
+    padding-top: 80px;
+    display:flex;
+    justify-content: center;
+}
+.chamada-texto{
+    margin-right: %5;
+}
+
+h1{
+    font-size: 32px;
+}
+
+p{
+    font-size: 18px;
+
+}
+img{
+    height: 150px;
+}
+
+.categoria-videos {<iframe width="560" height="315" src="https://www.youtube.com/embed/b1oC3yCdikY?si=gXGuPQu6Y-InILJu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+}
+
+
+
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid green 
+}
